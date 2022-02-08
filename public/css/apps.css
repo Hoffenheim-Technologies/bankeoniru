@@ -17982,8 +17982,21 @@ disabled look for disabled choices in the results dropdown
 	color: white;
 } */
 
-@media (max-width: 768px) {
+@media (max-width: 971px) {
 	.about-section{
 		background-image: none !important;
+	}
+	.donate-section{
+		background-image: none !important;
+	}
+}
+@media (max-width: 990px) {
+	.donate-section{
+		background-image: none !important;
+	}
+}
+@media (min-width: 990px) {
+	.donate-image{
+		display: none;
 	}
 }

@@ -17,6 +17,7 @@
   </div>
 </section>
 <!-- Overview-->
+<img class="d-block d-lg-none" src="images/bg-1.jpeg" alt="" style="width: 100%;"></div>
 <section class="section section-lg mx-auto about-section" style="background: url(&quot;images/bg-1.jpeg&quot;) center; background-size: contain; background-position: right top; max-width: 75vw; background-repeat: no-repeat">
   <div class="container">
     <div class="row row-50 justify-content-center justify-content-lg-between">

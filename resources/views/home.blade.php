@@ -1,6 +1,7 @@
 @extends ('layouts.elements')
 
 @section('content')
+<img class="d-block d-lg-none" src="images/parallax-2.jpeg" alt="" style="width: 100%;"></div>
 <div class="parallax-container" data-parallax-img="images/parallax-2.jpg">
     <div class="material-parallax parallax">
     <img class="d-none d-lg-block" src="images/parallax-2.jpeg" alt="" style="display: block;"></div>
@@ -11,7 +12,7 @@
             <div class="wow-outer">
             <h6 class="title-decorated wow slideInLeft" style="visibility: visible; animation-name: slideInLeft;">Change Your Future</h6>
             </div>
-            <h1 class="font-weight-bold wow-outer"><span class="wow slideInDown" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: slideInDown;">Election Day Is Coming</span></h1>
+            <h1 class="font-weight-bold wow-outer"><span class="wow slideInDown" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: slideInDown;">The new wind of change for Lagos Central district and Nigeria</span></h1>
             <p class="big wow-outer"><span class="wow slideInDown" data-wow-delay=".35s" style="visibility: visible; animation-delay: 0.35s; animation-name: slideInDown;">Make sure to take care of your family and your own future by supporting <b>Victoria Olubanke Oniru</b>.</span></p>
             <div class="wow-outer button-outer"><a class="button button-lg button-primary button-winona wow slideInDown" href="donate.html" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: slideInDown;">Donate Now</a></div>
         </div>
@@ -19,9 +20,9 @@
     </div>
     </div>
 </div>
-<section class="section section-lg text-center" style="display: none">
-    <div class="container">
-        <h3 class="wow-outer"><span class="wow slideInUpOur animated" style="visibility: visible;">Projects</span></h3>
+<section class="section section-lg text-center">
+    <div class="container" style="display: none">
+        <h3 class="wow-outer"><span class="wow slideInUpOur animated" style="visibility: visible;"></span></h3>
         <p class="wow-outer"><span class="text-width-1 wow slideInDown" style="visibility: visible; animation-name: slideInDown;">Our party works on a variety of reforms and projects for our community. Below you can read about what we are planning to do in the next few years.</span></p>
         <div class="row row-50 row-xxl-70 offset-top-2">
         <div class="col-sm-6 col-md-4 col-lg-3 wow-outer">
@@ -90,6 +91,7 @@
         </div>
         </div>
     </div>
+    <img src="images/img-4.jpeg" alt="" style="width: 100%">
 </section>
     <!-- A Few Words About Us-->
 <!-- <section class="section section-lg bg-gray-100">
@@ -119,8 +121,9 @@
     </div>
 </section>
     <!-- Who We Are-->
-<section class="section section-lg section-last text-center" style="display: none">
-    <div class="container">
+<section class="section section-lg section-last text-center" >
+    <img src="images/img-1.jpeg" alt="" style="width: 100%">
+    <div class="container" style="display: none">
         <h3 class="wow-outer text-center"><span class="wow slideInDown" style="visibility: hidden; animation-name: none;">Our Team</span></h3>
         <div class="row row-50">
         <div class="col-sm-6 col-lg-4 wow-outer">
@@ -303,8 +306,9 @@
     </div>
 </section>
     <!-- Latest Blog Posts-->
-<section class="section section-lg text-center" style="display: none">
-    <div class="container">
+<section class="section section-lg text-center">
+    <img src="images/img-9.jpeg" alt="" style="width: 100%">
+    <div class="container" style="display: none">
         <h3 class="wow-outer"><span class="wow slideInDown" style="visibility: hidden; animation-name: none;">Latest Blog Posts</span></h3>
         <div class="row row-50">
         <div class="col-md-6 wow-outer">
@@ -338,7 +342,7 @@
         </div>
         <div class="wow-outer button-outer"><a class="button button-primary-outline button-winona wow slideInUp" href="grid-blog.html" style="visibility: hidden; animation-name: none;">View all Blog posts</a></div>
     </div>
-</section>
+</section>      
     <!-- Newsletter-->
 <section class="section section-lg bg-gray-100" style="display: none">
     <div class="container">

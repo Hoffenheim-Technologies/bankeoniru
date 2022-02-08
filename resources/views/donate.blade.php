@@ -15,7 +15,8 @@
         </div>
     </div>
 </section>
-<section class="section section-lg mx-auto" style="background: url(&quot;images/bg-4.jpeg&quot;) center; background-size: contain; background-position: right top; max-width: 75vw; background-repeat: no-repeat">
+<img class="donate-image" src="images/bg-4.jpeg" alt="" style="width: 100%;"></div>
+<section class="section section-lg mx-auto about-section" style="background: url(&quot;images/bg-4.jpeg&quot;) center; background-size: contain; background-position: right top; max-width: 75vw; background-repeat: no-repeat">
     <div class="container">
         <div class="row row-50 justify-content-center justify-content-lg-between">
         <div class="col-md-10 col-lg-6">
