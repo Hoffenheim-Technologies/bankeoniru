@@ -78,6 +78,28 @@
           <p>Barack Youth Empowerment Summit, The Empowerment Centre</p>
         </div>
       </div>
+      <div class="timeline-classic-item">
+        <div class="timeline-classic-item-aside">
+          <!-- <img class="timeline-classic-item-image" src="images/timeline-4-390x250.jpg" alt="" width="390" height="250"> -->
+        </div>
+        <div class="timeline-classic-item-divider"></div>
+        <div class="timeline-classic-item-main">
+          <!-- <p class="timeline-classic-item-title">May 2017</p> -->
+          <p class="thumbnail-classic-item-subtitle">Certificate, Bullet Proof Manager</p>
+          <p>Crestcom International LLC, Leadership training School of Media and Communication, Pan-Atlantic.</p>
+        </div>
+      </div>
+      <div class="timeline-classic-item">
+        <div class="timeline-classic-item-aside">
+          <!-- <img class="timeline-classic-item-image" src="images/timeline-4-390x250.jpg" alt="" width="390" height="250"> -->
+        </div>
+        <div class="timeline-classic-item-divider"></div>
+        <div class="timeline-classic-item-main">
+          <!-- <p class="timeline-classic-item-title">May 2017</p> -->
+          <p class="thumbnail-classic-item-subtitle">Team Member</p>
+          <p>Nigeria 2025 Scenario Development Project LEAP Africa and African Leadership Institute Economic Empowerment A member of the Nigerian 2025</p>
+        </div>
+      </div>
     </article>
   </div>
 </section>

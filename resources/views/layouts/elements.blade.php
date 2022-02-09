@@ -82,21 +82,21 @@
                             <ul class="rd-menu rd-navbar-dropdown rd-navbar-open-right" style="">
                                 <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{url('/about')}}">About Us</a></li>
                                 <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{url('/about#our-history')}}">Background History</a></li>
-                                <!-- <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{url('/political')}}">Political History</a></li>
-                                <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{url('/end-sars')}}">End SARS</a></li> -->
+                                <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{url('/political')}}">Political History</a></li>
+                                <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{url('/end-sars')}}">End SARS</a></li>
                             </ul>
                             </li>
                             <li class="rd-nav-item"><a class="rd-nav-link" href="{{url('/donate')}}">Donate</a></li>
-                            <!-- <li class="rd-nav-item rd-navbar--has-dropdown rd-navbar-submenu">
+                            <li class="rd-nav-item rd-navbar--has-dropdown rd-navbar-submenu">
                                 <a class="rd-nav-link" href="javascript:void(0)">Our Cause</a>
                                 
                                 <ul class="rd-menu rd-navbar-dropdown rd-navbar-open-right" style="">
-                                    <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{url('/cause')}}">Our Cause</a></li>
-                                    <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{url('/join')}}">Join Us</a></li>
+                                    <!-- <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{url('/cause')}}">Our Cause</a></li>
+                                    <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{url('/join')}}">Join Us</a></li> -->
                                     <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{url('/volunteer')}}">Volunteer</a></li>
                                 </ul>
-                            </li> -->
-                            <!-- <li class="rd-nav-item"><a class="rd-nav-link" href="{{url('/campaign')}}">Campaign</a></li> -->
+                            </li>
+                            <li class="rd-nav-item"><a class="rd-nav-link" href="{{url('/campaign')}}">Campaign</a></li>
                             <li class="rd-nav-item"><a class="rd-nav-link" href="{{url('/contact')}}">Contact Us</a>
                             </li>
                         </ul>
