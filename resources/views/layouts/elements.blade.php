@@ -91,8 +91,8 @@
                                 <a class="rd-nav-link" href="javascript:void(0)">Our Cause</a>
                                 
                                 <ul class="rd-menu rd-navbar-dropdown rd-navbar-open-right" style="">
-                                    <!-- <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{url('/cause')}}">Our Cause</a></li>
-                                    <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{url('/join')}}">Join Us</a></li> -->
+                                    <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{url('/cause')}}">Our Cause</a></li>
+                                    <!-- <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{url('/join')}}">Join Us</a></li> -->
                                     <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{url('/volunteer')}}">Volunteer</a></li>
                                 </ul>
                             </li>
@@ -159,11 +159,11 @@
                   </div> -->
                   <div class="col-6 col-sm-3">
                     <ul class="list list-xs">
-                      <li><a href="#">Facebook</a></li>
-                      <li><a href="#">Twitter</a></li>
-                      <li><a href="#">Instagram</a></li>
-                      <li><a href="#">LinkedIn</a></li>
-                      <li><a href="#">Pinterest</a></li>
+                      <li><a href="https://www.facebook.com/voniru" target="blank">Facebook</a></li>
+                      <li><a href="https://twitter.com/hrh_bankeoniru" target="blank">Twitter</a></li>
+                      <li><a href="https://www.instagram.com/banke_oniru_2023/" target="blank">Instagram</a></li>
+                      <!-- <li><a href="#">LinkedIn</a></li>
+                      <li><a href="#">Pinterest</a></li> -->
                     </ul>
                   </div>
                 </div>

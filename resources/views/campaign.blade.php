@@ -62,13 +62,19 @@
         <div class="col-lg-4">
             <!-- Profile Thin-->
             <article class="profile-thin">
-            <div class="profile-thin-aside"><img class="profile-thin-image" src="images/profile.jpeg" alt="" width="168" height="168"><a class="profile-thin-contact-button" href="mailto:#"><span class="icon mdi mdi-email-outline"></span><span class="icon mdi mdi-email-outline"></span></a>
+            <div class="profile-thin-aside"><img class="profile-thin-image" src="images/profile.jpeg" alt="" width="168" height="168"><a class="profile-thin-contact-button" href="mailto:mailto:bankeoniru@gmail.com"><span class="icon mdi mdi-email-outline"></span><span class="icon mdi mdi-email-outline"></span></a>
             </div>
             <div class="profile-thin-main">
                 <p class="profile-thin-title">Olubanke Oniru</p>
                 <p class="profile-thin-subtitle">Lagos Senatorial District  </p>
                 <p>Princess Olubanke Oniru is currently amidst campaign development towards a 2023 National Elective Position in the National Assembly of the Federal Republic of Nigeria. The next federal elections will hold in Quarter 1 of year 2023. Representation of women and of young people in elected government positions in Nigeria is alarmingly very few. This must change in 2023 and beyond.</p>
-                <div class="group group-xs group-middle"><a class="icon icon-sm icon-creative mdi mdi-facebook" href="#"></a><a class="icon icon-sm icon-creative mdi mdi-twitter" href="#"></a><a class="icon icon-sm icon-creative mdi mdi-instagram" href="#"></a><a class="icon icon-sm icon-creative mdi mdi-google" href="#"></a><a class="icon icon-sm icon-creative mdi mdi-linkedin" href="#"></a></div>
+                <div class="group group-xs group-middle">
+                    <a class="icon icon-sm icon-creative mdi mdi-facebook" href="https://www.facebook.com/voniru" target="blank"></a>
+                    <a class="icon icon-sm icon-creative mdi mdi-twitter" href="https://twitter.com/hrh_bankeoniru" target="blank"></a>
+                    <a class="icon icon-sm icon-creative mdi mdi-instagram" href="https://www.instagram.com/banke_oniru_2023/" target="blank"></a>
+                    <!-- <a class="icon icon-sm icon-creative mdi mdi-google" href="#"></a>
+                    <a class="icon icon-sm icon-creative mdi mdi-linkedin" href="#"></a> -->
+                </div>
             </div>
             </article>
         </div>

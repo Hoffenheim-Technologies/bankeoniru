@@ -29,7 +29,13 @@
                 <p>Endsars activist and coordinator. </p>
             </div>
             <div class="profile-modern-item">
-                <div class="group group-xs group-middle"><a class="icon icon-sm icon-creative mdi mdi-facebook" href="#"></a><a class="icon icon-sm icon-creative mdi mdi-twitter" href="#"></a><a class="icon icon-sm icon-creative mdi mdi-instagram" href="#"></a><a class="icon icon-sm icon-creative mdi mdi-google" href="#"></a><a class="icon icon-sm icon-creative mdi mdi-linkedin" href="#"></a></div>
+                <div class="group group-xs group-middle">
+                    <a class="icon icon-sm icon-creative mdi mdi-facebook" href="https://www.facebook.com/voniru" target="blank"></a>
+                    <a class="icon icon-sm icon-creative mdi mdi-twitter" href="https://twitter.com/hrh_bankeoniru" target="blank"></a>
+                    <a class="icon icon-sm icon-creative mdi mdi-instagram" href="https://www.instagram.com/banke_oniru_2023/" target="blank"></a>
+                    <!-- <a class="icon icon-sm icon-creative mdi mdi-google" href="#"></a>
+                    <a class="icon icon-sm icon-creative mdi mdi-linkedin" href="#"></a> -->
+                </div>
             </div>
             </div>
             <div class="row row-30">

@@ -3,7 +3,7 @@
 @section('content')
 <img class="d-block d-lg-none" src="images/parallax-2.jpeg" alt="" style="width: 100%;"></div>
 <div class="parallax-container" data-parallax-img="images/parallax-2.jpg">
-    <div class="material-parallax parallax">
+    <div class="material-parallax parallax" style="height: max-content">
     <img class="d-none d-lg-block" src="images/parallax-2.jpeg" alt="" style="display: block;"></div>
     <div class="parallax-content">
     <div class="jumbotron-classic-inner">
