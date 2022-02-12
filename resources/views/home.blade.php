@@ -91,7 +91,7 @@
         </div>
         </div>
     </div>
-    <img src="images/img-4.jpeg" alt="" style="width: 100%">
+    <img src="images/img-5.jpeg" alt="" style="width: 100%">
 </section>
     <!-- A Few Words About Us-->
 <!-- <section class="section section-lg bg-gray-100">
@@ -144,7 +144,7 @@
             </div>
             </article>
         </div>
-        <div class="col-sm-6 col-lg-4 wow-outer"> 
+        <div class="col-sm-6 col-lg-4 wow-outer">
             <!-- Profile Minimal-->
             <article class="profile-minimal wow slideInLeft" data-wow-delay=".1s" style="visibility: hidden; animation-delay: 0.1s; animation-name: none;"><img class="profile-minimal-image" src="images/team-1-370x368.jpg" alt="" width="370" height="368">
             <div class="profile-minimal-caption">
@@ -164,9 +164,9 @@
         <div class="row row-50 justify-content-center justify-content-lg-between">
         <div class="col-md-10 col-lg-5">
             <div class="owl-carousel owl-loaded" data-items="1" data-dots="true" data-nav="false" data-loop="false" data-margin="30" data-stage-padding="0" data-mouse-drag="false" style="">
-            
-            
-            
+
+
+
             <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 1800px;"><div class="owl-item active" style="width: 569.992px; margin-right: 30px;"><div class="wow-outer">
                 <blockquote class="quote-modern wow slideInLeft" style="visibility: hidden; animation-name: none;">
                 <svg class="quote-modern-mark" x="0px" y="0px" width="35px" height="25px" viewBox="0 0 35 25">
@@ -342,7 +342,7 @@
         </div>
         <div class="wow-outer button-outer"><a class="button button-primary-outline button-winona wow slideInUp" href="grid-blog.html" style="visibility: hidden; animation-name: none;">View all Blog posts</a></div>
     </div>
-</section>      
+</section>
     <!-- Newsletter-->
 <section class="section section-lg bg-gray-100" style="display: none">
     <div class="container">
