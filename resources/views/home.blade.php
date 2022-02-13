@@ -91,7 +91,7 @@
         </div>
         </div>
     </div>
-    <img src="images/img-4.jpeg" alt="" style="width: 100%">
+    <img src="images/bg9.jpeg" alt="" style="width: 100%">
 </section>
     <!-- A Few Words About Us-->
 <!-- <section class="section section-lg bg-gray-100">
