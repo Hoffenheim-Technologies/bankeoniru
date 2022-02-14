@@ -28,7 +28,7 @@
             </div>
             <div class="layout-bordered-item wow-outer">
                 <div class="layout-bordered-item-inner wow slideInUp" style="visibility: visible; animation-name: slideInUp;">
-                    <div class="icon icon-lg mdi mdi-email text-primary"></div><a class="link-default" href="mailto:bankeoniru@gmail.com">bankeoniru@gmail.com</a>
+                    <div class="icon icon-lg mdi mdi-email text-primary"></div><a class="link-default" href="mailto:olubanke@bankeoniru2023.com.ng">olubanke@bankeoniru2023.com.ng</a>
                 </div>
             </div>
             <div class="layout-bordered-item wow-outer">
@@ -47,18 +47,18 @@
                     <div class="section-lg">
                         <h3 class="wow-outer"><span class="wow slideInDown" style="visibility: visible; animation-name: slideInDown;">Contact Us</span></h3>
                         <!-- RD Mailform-->
-                        <form class="rd-form rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php" novalidate="novalidate">
+                        <form class="rd-form rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" novalidate="novalidate">
                             <div class="row row-10">
                             <div class="col-md-6 wow-outer">
                                 <div class="form-wrap wow fadeSlideInUp" style="visibility: visible; animation-name: fadeSlideInUp;">
                                 <label class="form-label-outside" for="contact-first-name">First Name</label>
-                                <input class="form-input form-control-has-validation form-control-last-child" id="contact-first-name" type="text" name="name" data-constraints="@Required"><span class="form-validation"></span>
+                                <input class="form-input form-control-has-validation form-control-last-child" id="contact-first-name" type="text" name="firstname" data-constraints="@Required"><span class="form-validation"></span>
                                 </div>
                             </div>
                             <div class="col-md-6 wow-outer">
                                 <div class="form-wrap wow fadeSlideInUp" style="visibility: visible; animation-name: fadeSlideInUp;">
                                 <label class="form-label-outside" for="contact-last-name">Last Name</label>
-                                <input class="form-input form-control-has-validation form-control-last-child" id="contact-last-name" type="text" name="name" data-constraints="@Required"><span class="form-validation"></span>
+                                <input class="form-input form-control-has-validation form-control-last-child" id="contact-last-name" type="text" name="lastname" data-constraints="@Required"><span class="form-validation"></span>
                                 </div>
                             </div>
                             <div class="col-md-6 wow-outer">

@@ -77,7 +77,7 @@
                         <ul class="rd-navbar-nav">
                             <li class="rd-nav-item active"><a class="rd-nav-link" href="{{url('/')}}">Home</a>
                             </li>
-                            <li class="rd-nav-item rd-navbar--has-dropdown rd-navbar-submenu"><a class="rd-nav-link" href="javascript:void(0)">About</a>
+                            <li class="rd-nav-item rd-navbar--has-dropdown rd-navbar-submenu"><a class="rd-nav-link" href="javascript:void(0)">About Us</a>
                             <!-- RD Navbar Dropdown-->
                             <ul class="rd-menu rd-navbar-dropdown rd-navbar-open-right" style="">
                                 <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{url('/about')}}">About Us</a></li>
@@ -86,17 +86,16 @@
                                 <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{url('/end-sars')}}">End SARS</a></li>
                             </ul>
                             </li>
-                            <li class="rd-nav-item"><a class="rd-nav-link" href="{{url('/donate')}}">Donate</a></li>
                             <li class="rd-nav-item rd-navbar--has-dropdown rd-navbar-submenu">
-                                <a class="rd-nav-link" href="javascript:void(0)">Our Cause</a>
+                                <a class="rd-nav-link" href="javascript:void(0)">Media/Events</a>
                                 
                                 <ul class="rd-menu rd-navbar-dropdown rd-navbar-open-right" style="">
                                     <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{url('/cause')}}">Our Cause</a></li>
-                                    <!-- <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{url('/join')}}">Join Us</a></li> -->
+                                    <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{url('/campaign')}}">Campaign</a></li>
                                     <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{url('/volunteer')}}">Volunteer</a></li>
                                 </ul>
                             </li>
-                            <li class="rd-nav-item"><a class="rd-nav-link" href="{{url('/campaign')}}">Campaign</a></li>
+                            <li class="rd-nav-item"><a class="rd-nav-link" href="{{url('/donate')}}">Donate</a></li>
                             <li class="rd-nav-item"><a class="rd-nav-link" href="{{url('/contact')}}">Contact Us</a>
                             </li>
                         </ul>
@@ -178,7 +177,7 @@
                       <li><a class="link-default" href="tel:+2347057537777">0705-753-7777</a></li>
                     </ul>
                   </li>
-                  <li class="object-inline"><span class="icon icon-md mdi mdi-email text-primary"></span><a class="link-default" href="mailto:bankeoniru@gmail.com">bankeoniru@gmail.com</a></li>
+                  <li class="object-inline"><span class="icon icon-md mdi mdi-email text-primary"></span><a class="link-default" href="mailto:olubanke@bankeoniru2023.com.ng">olubanke@bankeoniru2023.com.ng</a></li>
                 </ul>
               </div>
             </div>
