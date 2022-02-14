@@ -14,7 +14,7 @@
             </div>
             <h1 class="font-weight-bold wow-outer"><span class="wow slideInDown" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: slideInDown;">The new wind of change for Lagos Central district and Nigeria</span></h1>
             <p class="big wow-outer"><span class="wow slideInDown" data-wow-delay=".35s" style="visibility: visible; animation-delay: 0.35s; animation-name: slideInDown;">Make sure to take care of your family and your own future by supporting <b>Victoria Olubanke Oniru</b>.</span></p>
-            <div class="wow-outer button-outer"><a class="button button-lg button-primary button-winona wow slideInDown" href="donate.html" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: slideInDown;">Donate Now</a></div>
+            <div class="wow-outer button-outer"><a class="button button-lg button-primary button-winona wow slideInDown" href="{{url('/donate')}}" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: slideInDown;">Donate Now</a></div>
         </div>
         </div>
     </div>
@@ -91,7 +91,19 @@
         </div>
         </div>
     </div>
-    <img src="images/bg9.jpeg" alt="" style="width: 100%">
+    <div id="carouselExampleSlidesOnly" class="carousel slide mx-auto" data-ride="carousel" style="width: 80%">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img class="d-block w-100" src="images/bg9.jpeg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+        <img class="d-block w-100" src="images/img-1.jpeg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+        <img class="d-block w-100" src="images/img-9.jpeg" alt="Third slide">
+        </div>
+    </div>
+    </div>
 </section>
     <!-- A Few Words About Us-->
 <!-- <section class="section section-lg bg-gray-100">
@@ -122,7 +134,7 @@
 </section>
     <!-- Who We Are-->
 <section class="section section-lg section-last text-center" >
-    <img src="images/img-1.jpeg" alt="" style="width: 100%">
+    <img src="images/bg-1.jpeg" alt="" class="mx-auto" style="width: 80%;">
     <div class="container" style="display: none">
         <h3 class="wow-outer text-center"><span class="wow slideInDown" style="visibility: hidden; animation-name: none;">Our Team</span></h3>
         <div class="row row-50">
@@ -307,7 +319,7 @@
 </section>
     <!-- Latest Blog Posts-->
 <section class="section section-lg text-center">
-    <img src="images/img-9.jpeg" alt="" style="width: 100%">
+    <img src="images/bg-4.jpeg" class="mx-auto" alt="" style="width: 80%">
     <div class="container" style="display: none">
         <h3 class="wow-outer"><span class="wow slideInDown" style="visibility: hidden; animation-name: none;">Latest Blog Posts</span></h3>
         <div class="row row-50">

@@ -28,7 +28,7 @@
             </div>
             <div class="layout-bordered-item wow-outer">
                 <div class="layout-bordered-item-inner wow slideInUp" style="visibility: visible; animation-name: slideInUp;">
-                    <div class="icon icon-lg mdi mdi-email text-primary"></div><a class="link-default" href="mailto:bankeoniru@gmail.com">bankeoniru@gmail.com</a>
+                    <div class="icon icon-lg mdi mdi-email text-primary"></div><a class="link-default" href="mailto:olubanke@bankeoniru2023.com.ng">olubanke@bankeoniru2023.com.ng</a>
                 </div>
             </div>
             <div class="layout-bordered-item wow-outer">
