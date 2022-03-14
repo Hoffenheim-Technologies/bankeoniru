@@ -62,7 +62,7 @@
         <div class="col-lg-4">
             <!-- Profile Thin-->
             <article class="profile-thin">
-            <div class="profile-thin-aside"><img class="profile-thin-image" src="images/profile.jpeg" alt="" width="168" height="168"><a class="profile-thin-contact-button" href="mailto:olubanke@bankeoniru2023.com.ng"><span class="icon mdi mdi-email-outline"></span><span class="icon mdi mdi-email-outline"></span></a>
+            <div class="profile-thin-aside"><img class="profile-thin-image" src="images/banke3.jpeg" alt="" width="168" height="168"><a class="profile-thin-contact-button" href="mailto:olubanke@bankeoniru2023.com.ng"><span class="icon mdi mdi-email-outline"></span><span class="icon mdi mdi-email-outline"></span></a>
             </div>
             <div class="profile-thin-main">
                 <p class="profile-thin-title">Olubanke Oniru</p>

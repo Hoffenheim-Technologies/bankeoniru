@@ -97,10 +97,10 @@
         <img class="d-block w-100" src="images/bg9.jpeg" alt="First slide">
         </div>
         <div class="carousel-item">
-        <img class="d-block w-100" src="images/img-1.jpeg" alt="Second slide">
+        <img class="d-block w-100" src="images/banke1.jpeg" alt="Second slide">
         </div>
         <div class="carousel-item">
-        <img class="d-block w-100" src="images/img-9.jpeg" alt="Third slide">
+        <img class="d-block w-100" src="images/banke3.jpeg" alt="Third slide">
         </div>
     </div>
     </div>
@@ -134,7 +134,7 @@
 </section>
     <!-- Who We Are-->
 <section class="section section-lg section-last text-center" >
-    <img src="images/bg-1.jpeg" alt="" class="mx-auto" style="width: 80%;">
+    <img src="images/banke2.jpeg" alt="" class="mx-auto" style="width: 80%;">
     <div class="container" style="display: none">
         <h3 class="wow-outer text-center"><span class="wow slideInDown" style="visibility: hidden; animation-name: none;">Our Team</span></h3>
         <div class="row row-50">
