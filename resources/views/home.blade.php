@@ -12,8 +12,8 @@
             <div class="wow-outer">
             <h6 class="title-decorated wow slideInLeft" style="visibility: visible; animation-name: slideInLeft;">Change Your Future</h6>
             </div>
-            <h1 class="font-weight-bold wow-outer"><span class="wow slideInDown" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: slideInDown;">The new wind of change for Lagos Central district and Nigeria</span></h1>
-            <p class="big wow-outer"><span class="wow slideInDown" data-wow-delay=".35s" style="visibility: visible; animation-delay: 0.35s; animation-name: slideInDown;">Make sure to take care of your family and your own future by supporting <b>Victoria Olubanke Oniru</b>.</span></p>
+            <h1 class="font-weight-bold wow-outer"><span class="wow slideInDown" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: slideInDown;">The New Wind of Change Blowing Across Lagos Central District and Nigeria!</span></h1>
+            <p class="big wow-outer"><span class="wow slideInDown" data-wow-delay=".35s" style="visibility: visible; animation-delay: 0.35s; animation-name: slideInDown;">For A Secured Future For You And Your Family, Support... <b>Victoria Olubanke Oniru</b>.</span></p>
             <div class="wow-outer button-outer"><a class="button button-lg button-primary button-winona wow slideInDown" href="{{url('/donate')}}" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: slideInDown;">Donate Now</a></div>
         </div>
         </div>
