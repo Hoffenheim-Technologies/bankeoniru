@@ -5244,11 +5244,17 @@
 </head>
 
 <body>
-
+    <div class="w-full p-3">
+      <div class="p-2 border-3 border-red-500 flex flex-row uppercase text-red-500 justify justify-between">
+        <div class="flex flex-row items-center"><span>Get your PVC!</span><img src="images/tick.svg" alt="" class="w-6 ml-1"></div>
+        <div class="flex flex-row items-center"><span>Mobilize</span><img src="images/tick.svg" alt="" class="w-6 ml-1"></div>
+        <div class="flex flex-row items-center"><span>Vote</span><img src="images/tick.svg" alt="" class="w-6 ml-1"></div>
+      </div>
+    </div>
     <header>
        <nav class="py-2 flex justify-between items-center w-full">
            <div>
-               <img src="images/logo_size.jpg" alt="" class="h-auto max-h-24">
+               <img src="images/logo.png" alt="" class="h-auto max-h-24">
            </div>
             <ul class="xs:flex flex-row justify-end">
                 <li class="mx-2 my-1"><a href="/about">About</a></li>
@@ -5313,14 +5319,14 @@
           <div class="css-1fomqoc">
             <div class="css-uwzefu">
               <p class="css-trrx3p ee5gium7">Banke Oniru for Lagos Senatorial District</p>
-              <h1 class="css-1w6qw1z">New energy and honest leadership.</h1>
+              <h1 class="css-1w6qw1z">Volunteer Today</h1>
               <form name="campaign-updates" id="subscribe_form" class="css-11m3p3g" method="POST">
                   @csrf
                 <div class="css-vqqzlw">
                   <div class="css-ffxppn"><input type="email" id="Email" name="email" class="css-1h11ggt placeholder:text-white" placeholder="Email"></div>
                 </div>
                 <div class="css-168v9lz">
-                  <div class="css-ffxppn"><input type="text" id="Zip Code" name="zip" class="css-1h11ggt placeholder:text-white" placeholder="Zip"></div>
+                  <div class="css-ffxppn"><input type="text" id="Zip Code" name="zip" class="css-1h11ggt placeholder:text-white" placeholder="City"></div>
                 </div>
                 <div class="css-vqqzlw">
                   <div class="css-ffxppn"><input type="tel" id="Cell Phone" name="phone" class="css-1h11ggt placeholder:text-white" placeholder="Phone No"></div>
@@ -5369,7 +5375,10 @@
               <div class="css-19vm3bd">
                 <h2 class="css-1ja3prc ee5gium6">Banke Oniru launches campaign</h2>
                 <p class="css-13scurn ee5gium7">
-                    <a href="https://www.youtube.com/watch?v=Ov_wfaMcLs0&amp;ab_channel=ConorLamb" class="css-10i63lj"></a>
+                    Why I'm running
+                </p>
+                <p>
+                I'm running to ensure every Lagosian has great health care, to deliver historic investments in clean energy and infrastructure, to rebuild this economy so working families and small businesses thrive, and to root out corruption so government serves the people — not private interests with legions of lobbyists.
                 </p>
                 <a class="css-1fedfzx" href="/volunteer">
                     <button class="group css-12evmpy" type="button">
@@ -5447,16 +5456,10 @@
           <div class="css-eyto4f">
             <div class="css-zbf0mm">
               <p class="css-trrx3p ee5gium7">We will make it work</p>
-              <h2 class="css-13y55mi">I want our democracy to work more than they want it to fail.</h2><a
-                href="/issues" class="hidden"><button class="group css-160fmun" type="button"><span class="css-1mjbnxq">Read the
-                    issues</span>
-                  <div class="css-1w48icp"><svg viewBox="0 0 32 20" xmlns="http://www.w3.org/2000/svg"
-                      class="css-1geqitq">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M0 9.844c0-.373.144-.731.4-.995.257-.263.604-.411.967-.411h25.956l-5.87-6.035a1.428 1.428 0 01-.4-.995c0-.374.144-.732.4-.996A1.35 1.35 0 0122.421 0c.363 0 .711.148.968.412l8.201 8.436a1.441 1.441 0 010 1.99l-8.201 8.437a1.35 1.35 0 01-.968.412 1.35 1.35 0 01-.968-.412 1.428 1.428 0 01-.4-.996c0-.373.144-.731.4-.995l5.87-6.034H1.367c-.363 0-.71-.149-.967-.412a1.427 1.427 0 01-.4-.994z">
-                      </path>
-                    </svg></div>
-                </button></a>
+              <h2 class="css-13y55mi">I want our democracy to work more than they want it to fail.</h2>
+              <p>
+              Lagos is one of the most competitive states in the country. The Presidency AND the Senate could be decided right here in Lagos State. So we need to build an enormous grassroots movement to win. Sign up to volunteer for #TeamVOO today!
+              </p>
             </div>
           </div>
         </section>
@@ -5480,7 +5483,7 @@
               @csrf
               <h3 class="css-16it5s7 ee5gium5">Stay updated.</h3>
               <div class="css-ffxppn"><input type="email" id="Email" name="email" class="css-b967w7" placeholder="Email"></div>
-              <div class="css-ffxppn"><input type="text" id="Zip Code" name="zip" class="css-b967w7" placeholder="Zip Code"></div>
+              <div class="css-ffxppn"><input type="text" id="Zip Code" name="zip" class="css-b967w7" placeholder="City"></div>
               <div class="css-ffxppn"><input type="tel" id="Cell Phone" name="phone" class="css-b967w7" placeholder="Phone No"></div><input type="hidden"
                 name="form-name" value="join-team"><button class="group css-65hfok" type="submit"><span
                   class="css-1mjbnxq">Sign Up</span>
@@ -5504,46 +5507,17 @@
               <p class="css-ravl3z ee5gium7">Conor is fighting for a better future for everyone. Your contribution
                 supports our 2022 campaign to elect Conor to the Senate. Anything helps. Thank you for your support!</p>
             </div>
-            <div class="css-1nmj1g0">
-              <div class="css-ftzecr"><a
-                  href="https://secure.actblue.com/donate/conorlamb_website?refcode=website&amp;amount=50">
-                  <div class="group css-1vx9r0k"><button type="button" class="css-1tpddvr">$50</button>
-                    <div class="css-kamp83"></div>
-                    <div class="css-17y9l5s"></div>
-                  </div>
-                </a><a href="https://secure.actblue.com/donate/conorlamb_website?refcode=website&amp;amount=100">
-                  <div class="group css-1vx9r0k"><button type="button" class="css-1tpddvr">$100</button>
-                    <div class="css-kamp83"></div>
-                    <div class="css-17y9l5s"></div>
-                  </div>
-                </a><a href="https://secure.actblue.com/donate/conorlamb_website?refcode=website&amp;amount=250">
-                  <div class="group css-1vx9r0k"><button type="button" class="css-1tpddvr">$250</button>
-                    <div class="css-kamp83"></div>
-                    <div class="css-17y9l5s"></div>
-                  </div>
-                </a><a href="https://secure.actblue.com/donate/conorlamb_website?refcode=website&amp;amount=1000">
-                  <div class="group css-1vx9r0k"><button type="button" class="css-1tpddvr">$1000</button>
-                    <div class="css-kamp83"></div>
-                    <div class="css-17y9l5s"></div>
-                  </div>
-                </a>
-                <div class="css-firlg"><a href="https://secure.actblue.com/donate/conorlamb_website?refcode=website">
-                    <div class="group css-1vx9r0k"><button type="button" class="css-1tpddvr">Other amount</button>
-                      <div class="css-kamp83"></div>
-                      <div class="css-17y9l5s"></div>
-                    </div>
-                  </a></div>
-              </div><img src="/static/conor-badge-blue-b52a35edf98c16e2854ef4bc342a638f.png" alt="Conor Badge Blue"
-                class="css-1nhdnci">
-            </div>
+            
           </div>
         </section>
         <footer class="css-r2jvqo">
           <div class="css-15tnfqu">
-            <div class="css-138ztd8"><a aria-current="page" class="" href="/"><img
-                  src="images/logo_size_invert.jpg" alt="Banke Oniru Lagos Senatorial District Logo"
-                  class="css-106kzaf"></a></div>
-            <div class="css-96d6qo">
+            <div class="css-138ztd8 mx-auto">
+              <a aria-current="page" class="bg-white" href="/">
+                <img src="images/logo.png" class="bg-white py-2 px-2" alt="Banke Oniru Lagos Senatorial District Logo" class="css-106kzaf">
+              </a>
+            </div>
+            <div class="css-96d6qo mx-auto">
               <div class="css-lqzy56"><a href="https://www.facebook.com/voniru" target="_blank"
                   rel="noopener noreferrer" class="css-1m14acy"><svg stroke="currentColor" fill="currentColor"
                     stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
