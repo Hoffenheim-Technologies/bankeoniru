@@ -5308,7 +5308,7 @@
               </svg></button>
           </section>
         </div>
-        <section class="css-54tfx5"><img src="images/banke3.jpeg"
+        <section class="css-54tfx5"><img src="images/banke6.jpeg"
             alt="Banke Oniru on stage" class="css-pn27yb">
           <div class="css-1fomqoc">
             <div class="css-uwzefu">
