@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\SubscriberController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('wellcome');
 });
 Route::get('/about', function () {
     return view('about');
@@ -48,4 +49,10 @@ Route::get('/end-sars', function () {
 });
 Route::get('/{any}', function($any) {
     return view('error')->with('route', $any);
+});
+
+Route::controller(SubscriberController::class)->group(function() {
+    Route::get('/subscribers', 'index');
+    Route::get('/subscribers/{id}', 'show');
+    Route::post('/', 'store');
 });

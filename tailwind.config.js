@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   content: [
     "./resources/**/*.blade.php",
@@ -5,6 +7,10 @@ module.exports = {
     "./resources/**/*.vue",
   ],
   theme: {
+    screens: {
+      'xs': '375px',
+      ...defaultTheme.screens,
+    },
     extend: {},
   },
   plugins: [],
