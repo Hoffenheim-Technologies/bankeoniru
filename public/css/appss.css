@@ -504,6 +504,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
 }
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
 .ml-1 {
   margin-left: 0.25rem;
 }
@@ -564,6 +568,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-auto {
   height: auto;
 }
+.h-32 {
+  height: 8rem;
+}
+.h-64 {
+  height: 16rem;
+}
+.h-72 {
+  height: 18rem;
+}
 .max-h-24 {
   max-height: 6rem;
 }
@@ -584,6 +597,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .w-6 {
   width: 1.5rem;
+}
+.w-32 {
+  width: 8rem;
+}
+.w-96 {
+  width: 24rem;
+}
+.w-72 {
+  width: 18rem;
 }
 .max-w-6xl {
   max-width: 72rem;
@@ -1010,6 +1032,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   .xs\:flex {
     display: flex;
   }
+
+  .xs\:h-64 {
+    height: 16rem;
+  }
+
+  .xs\:w-96 {
+    width: 24rem;
+  }
 }
 
 @media (min-width: 640px) {
@@ -1061,6 +1091,26 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 768px) {
+
+  .md\:h-72 {
+    height: 18rem;
+  }
+
+  .md\:h-\[315px\] {
+    height: 315px;
+  }
+
+  .md\:h-\[400px\] {
+    height: 400px;
+  }
+
+  .md\:w-full {
+    width: 100%;
+  }
+
+  .md\:w-\[560px\] {
+    width: 560px;
+  }
 
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
