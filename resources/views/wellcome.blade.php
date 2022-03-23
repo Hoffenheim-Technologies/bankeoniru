@@ -175,16 +175,16 @@
     </script> -->
   <title>Banke Oniru | Official Campaign Website | Banke Oniru</title>
   <meta data-react-helmet="true" name="description"
-    content="Princess Banke Oniru is a Marine and a former federal prosecutor who is running for the Democratic nomination for the Lagos Senatorial District">
+    content="Princess Banke Oniru is running for the democratic nomination for the Lagos Senatorial District">
   <meta data-react-helmet="true" property="og:title" content="Banke Oniru | Official Campaign Website">
   <meta data-react-helmet="true" property="og:description"
-    content="Princess Banke Oniru is a Marine and a former federal prosecutor who is running for the Democratic nomination for the Lagos Senatorial District">
+    content="Princess Banke Oniru is running for the democratic nomination for the Lagos Senatorial District">
   <meta data-react-helmet="true" property="og:type" content="website">
   <meta data-react-helmet="true" name="twitter:card" content="summary">
   <meta data-react-helmet="true" name="twitter:creator" content="@actualsize">
   <meta data-react-helmet="true" name="twitter:title" content="Banke Oniru | Official Campaign Website">
   <meta data-react-helmet="true" name="twitter:description"
-    content="Princess Banke Oniru is a Marine and a former federal prosecutor who is running for the Democratic nomination for the Lagos Senatorial District">
+    content="Princess Banke Oniru is running for the democratic nomination for the Lagos Senatorial District">
   <style>
     .uw-s10-reading-guide {
       display: none;
@@ -5540,7 +5540,7 @@
                     </path>
                   </svg></a></div>
               <address class="css-l67gk5">Banke Oniru for Lagos  Senatorial District<br><span class="css-50zrmy">PO Box 10381</span><br><span
-                  class="css-50zrmy">Pittsburgh, PA 15234</span></address>
+                  class="css-50zrmy"></span></address>
             </div>
             <ul class="css-ydh17v">
               <li>
@@ -5548,7 +5548,7 @@
                         class="css-zlm0wp"></span></span></a></p>
               </li>
               <li>
-                <p class="css-lvedgy ee5gium7"><a href="/political"><span class="group css-bjn8wh">Political History<span
+                <p class="css-lvedgy ee5gium7"><a href="/political"><span class="group css-bjn8wh">Leadership History<span
                         class="css-zlm0wp"></span></span></a></p>
               </li>
               <li>
@@ -5567,7 +5567,7 @@
             </ul>
           </div>
           <div class="css-1payr5c">
-            <div>©&nbsp; {{date('Y')}} All Rights Reserved. Built by <a href="https://www.hoffenheimtechnologies.com/" target="blank">Hoffenheim Technologies</a>.</div>
+            <div>©&nbsp; {{date('Y')}} All Rights Reserved. Powered by <a href="https://www.hoffenheimtechnologies.com/" target="blank">Hoffenheim Technologies</a>.</div>
           </div>
         </footer>
       </div>
