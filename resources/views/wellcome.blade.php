@@ -175,16 +175,16 @@
     </script> -->
   <title>Banke Oniru | Official Campaign Website | Banke Oniru</title>
   <meta data-react-helmet="true" name="description"
-    content="Princess Banke Oniru is a Marine and a former federal prosecutor who is running for the Democratic nomination for the Lagos Senatorial District">
+    content="Princess Banke Oniru is running for the democratic nomination for the Lagos Senatorial District">
   <meta data-react-helmet="true" property="og:title" content="Banke Oniru | Official Campaign Website">
   <meta data-react-helmet="true" property="og:description"
-    content="Princess Banke Oniru is a Marine and a former federal prosecutor who is running for the Democratic nomination for the Lagos Senatorial District">
+    content="Princess Banke Oniru is running for the democratic nomination for the Lagos Senatorial District">
   <meta data-react-helmet="true" property="og:type" content="website">
   <meta data-react-helmet="true" name="twitter:card" content="summary">
   <meta data-react-helmet="true" name="twitter:creator" content="@actualsize">
   <meta data-react-helmet="true" name="twitter:title" content="Banke Oniru | Official Campaign Website">
   <meta data-react-helmet="true" name="twitter:description"
-    content="Princess Banke Oniru is a Marine and a former federal prosecutor who is running for the Democratic nomination for the Lagos Senatorial District">
+    content="Princess Banke Oniru is running for the democratic nomination for the Lagos Senatorial District">
   <style>
     .uw-s10-reading-guide {
       display: none;
@@ -5427,13 +5427,14 @@
             </div>
             <div data-scroll="true" data-scroll-speed="1" class="css-1cwdlyq is-inview"
               style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -49.5302, 0, 1);">
-              <button type="button" class="group css-ha40c0">
-                <picture>
+              <iframe class="w-72 h-64 xs:w-96 xs:h-64 md:w-full md:h-[400px] my-3" src="https://www.youtube.com/embed/khtknmm58uw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <!-- <button type="button" class="group css-ha40c0"> -->
+                <!-- <video>
                   <source media="(min-width: 1280px)"
-                    srcset="images/banke4.jpeg"><img
-                    src="images/banke4.jpeg"
+                    srcset="https://youtu.be/khtknmm58uw"><img
+                    src="https://youtu.be/khtknmm58uw"
                     alt="Banke Oniru Picture" class="css-1544h18">
-                </picture>
+                </video> -->
                 <!-- <div class="css-1bauwie">
                   <div class="css-1wjl7tx"><svg width="61" height="62" fill="none" xmlns="http://www.w3.org/2000/svg"
                       class="css-7fnhdz">
@@ -5449,7 +5450,8 @@
                         stroke-width="3.14" stroke-linecap="round" stroke-linejoin="round"></path>
                     </svg></div>
                 </div> -->
-              </button></div>
+              <!-- </button> -->
+            </div>
           </div>
         </section>
         <section class="css-pef8vh">
@@ -5538,7 +5540,7 @@
                     </path>
                   </svg></a></div>
               <address class="css-l67gk5">Banke Oniru for Lagos  Senatorial District<br><span class="css-50zrmy">PO Box 10381</span><br><span
-                  class="css-50zrmy">Pittsburgh, PA 15234</span></address>
+                  class="css-50zrmy"></span></address>
             </div>
             <ul class="css-ydh17v">
               <li>
@@ -5546,7 +5548,7 @@
                         class="css-zlm0wp"></span></span></a></p>
               </li>
               <li>
-                <p class="css-lvedgy ee5gium7"><a href="/political"><span class="group css-bjn8wh">Political History<span
+                <p class="css-lvedgy ee5gium7"><a href="/political"><span class="group css-bjn8wh">Leadership History<span
                         class="css-zlm0wp"></span></span></a></p>
               </li>
               <li>
@@ -5565,7 +5567,7 @@
             </ul>
           </div>
           <div class="css-1payr5c">
-            <div>©&nbsp; {{date('Y')}} All Rights Reserved. Built by <a href="https://www.hoffenheimtechnologies.com/" target="blank">Hoffenheim Technologies</a>.</div>
+            <div>©&nbsp; {{date('Y')}} All Rights Reserved. Powered by <a href="https://www.hoffenheimtechnologies.com/" target="blank">Hoffenheim Technologies</a>.</div>
           </div>
         </footer>
       </div>
