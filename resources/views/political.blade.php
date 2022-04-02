@@ -24,7 +24,7 @@
       <div class="col-md-10 col-lg-7 wow-outer">
         <!-- Post Block-->
         <article class="post-block bg-gray-700">
-            <img class="post-block-image" src="images/competent.jpeg" alt="" width="637" height="456">
+            <img class="post-block-image" src="images/leadership-cv1.jpg" alt="" width="900" height="800">
           <div class="post-block-caption">
             <ul class="post-block-meta">
               <li class="wow-outer">
