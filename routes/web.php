@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SubscriberController;
+use App\Http\Controllers\Admin\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -47,12 +48,28 @@ Route::get('/political', function () {
 Route::get('/end-sars', function () {
     return view('sars');
 });
-Route::get('/{any}', function($any) {
-    return view('error')->with('route', $any);
+
+Auth::routes();
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::middleware(['auth', 'isAdmin'])->group(function () {
+    Route::get('/admin', [DashboardController::class, 'dashboard'])->name('admin_dashboard');
+    Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');
+    Route::get('/profile', [ProfileController::class, 'index'])->name('profile');
+    Route::put('/profile/{id}', [ProfileController::class, 'store'])->name('profile.store');
+
+
+    Route::get('/change-password', function () {
+        return view('admin.change-password');
+    });
 });
 
 Route::controller(SubscriberController::class)->group(function() {
     Route::get('/subscribers', 'index');
     Route::get('/subscribers/{id}', 'show');
     Route::post('/', 'store');
+});
+
+Route::get('/{any}', function($any) {
+    return view('error')->with('route', $any);
 });

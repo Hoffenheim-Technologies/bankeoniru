@@ -1,33 +1,32 @@
+/**
+ * First we will load all of this project's JavaScript dependencies which
+ * includes Vue and other libraries. It is a great starting point when
+ * building robust, powerful web applications using Vue and Laravel.
+ */
+
 require('./bootstrap');
 
-window.onscroll = () => {stickyNav()};
+window.Vue = require('vue').default;
 
-const stickyNav = () => {
-    var header = document.getElementById("main-header")
-    if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {
-        header.classList.remove('absolute', 'bg-transparent')
-        header.classList.add('sticky', 'bg-white')
-    } else {
-        header.classList.remove('sticky', 'bg-white')
-        header.classList.add('absolute', 'bg-transparent')
-    }
-}
+/**
+ * The following block of code may be used to automatically register your
+ * Vue components. It will recursively scan this directory for the Vue
+ * components and automatically register them with their "basename".
+ *
+ * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
+ */
 
-document.addEventListener('DOMContentLoaded', () => {
-    var expandables = document.getElementsByClassName("expand");
-    for (let index = 0; index < expandables.length; index++) {
-        let element = expandables[index];
-        element.addEventListener('mouseover', event => {
-            const expansion = event.target.closest('li').children.namedItem(event.target.closest('li').classList[1])
-            expansion.classList.remove('hidden')
-        })
-    }
-    // document.addEventListener('mouseover', event => {
-    //     if (!event.target.matches('.expansion')){
-    //         if (!event.target.classList.contains('hidden')) {
-    //             event.target.classList.add('hidden')
-    //         }
-    //     }
-    // })
-})
+// const files = require.context('./', true, /\.vue$/i)
+// files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
+Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+
+/**
+ * Next, we will create a fresh Vue application instance and attach it to
+ * the page. Then, you may begin adding components to this application
+ * or customize the JavaScript scaffolding to fit your unique needs.
+ */
+
+const app = new Vue({
+    el: '#app',
+});
