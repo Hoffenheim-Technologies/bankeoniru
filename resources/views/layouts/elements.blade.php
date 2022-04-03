@@ -159,8 +159,8 @@
                   </div> -->
                   <div class="col-6 col-sm-3">
                     <ul class="list list-xs">
-                      <li><a href="https://www.facebook.com/voniru" target="blank">Facebook</a></li>
-                      <li><a href="https://twitter.com/hrh_bankeoniru" target="blank">Twitter</a></li>
+                      <li><a href="https://www.facebook.com/olubanke2023" target="blank">Facebook</a></li>
+                      <li><a href="https://twitter.com/vooforsenate" target="blank">Twitter</a></li>
                       <li><a href="https://www.instagram.com/banke_oniru_2023/" target="blank">Instagram</a></li>
                       <!-- <li><a href="#">LinkedIn</a></li>
                       <li><a href="#">Pinterest</a></li> -->
@@ -175,7 +175,7 @@
                   <li class="object-inline"><span class="icon icon-md mdi mdi-map-marker text-primary"></span><a class="link-default" href="#">Lagos Central Senatorial District</a></li>
                   <li class="object-inline"><span class="icon icon-md mdi mdi-phone text-primary"></span>
                     <ul class="list-0">
-                      <li><a class="link-default" href="tel:+2347057537777">0705-753-7777</a></li>
+                      <li><a class="link-default" href="tel:+2348021361777">0802-136-1777</a></li>
                     </ul>
                   </li>
                   <li class="object-inline"><span class="icon icon-md mdi mdi-email text-primary"></span><a class="link-default" href="mailto:olubanke@bankeoniru2023.com.ng">olubanke@bankeoniru2023.com.ng</a></li>

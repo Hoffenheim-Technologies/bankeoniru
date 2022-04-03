@@ -22,7 +22,7 @@
                 <div class="layout-bordered-item-inner wow slideInUp" style="visibility: visible; animation-name: slideInUp;">
                     <div class="icon icon-lg mdi mdi-phone text-primary"></div>
                     <ul class="list-0">
-                        <li><a class="link-default" href="tel:+2347057537777">0705-753-7777</a></li>
+                        <li><a class="link-default" href="tel:+2348021361777">0802-136-1777</a></li>
                     </ul>
                 </div>
             </div>

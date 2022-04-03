@@ -38,9 +38,9 @@
                 <path d="M27.461,10.206h7.5v15h-15v-15L25,0.127h7.5L27.461,10.206z M7.539,10.206h7.5v15h-15v-15L4.961,0.127h7.5                L7.539,10.206z"></path>
                 </svg>
                 <div class="quote-light-text">
-                <p>As an activist we can't being on the fence and complain all the time we need to be part of the change. How do u fathom in the history of Nigeria that a man is currently running for the president of Nigeria and his wife is a senator. How do we comprehend such aberration out of 200 million people. We need a different kinda change that would reposition the economy that would naira in everyone's pockets. A different kinda voice to the voiceless. A different kinda representation to the faceless. That would put food on people's tables across Lagos Central and the country.
+                <p>As an activist we can't be on the fence and complain all the time. We need to be part of the change. How do you fathom in the history of Nigeria that a man is currently running for the president of Nigeria and his wife is a senator. How do we comprehend such aberration out of 200 million people. We need a different "kinda" change that would reposition the economy and put naira in everyone's pockets. A different "kinda" voice to the voiceless. A different "kinda" representation to the faceless. That would put food on people's tables across Lagos Central and the country.
 
-                The demand for endsar's are not met yet but people haven't paid toll gate in almost two years. 
+                The demand from the ENDSARS protests are not yet met but motorists haven't paid toll fees at the two toll plazas in almost two years. 
 
                 According to Apollo, for those that sacrifice their lives for others like us to reach for the stars. I'm running for these people.</p>
                 </div>
@@ -50,7 +50,7 @@
                 In this upcoming election, Nigerians have said their minds loudly. A lot of Nigerians are hungry, in fact, very hungry. Too many seniors are living in poverty. The youths, school children, women and men alike see a bleak future. But the good news is that Banke and her team are here to change the story and the narrative. Nigerians deserve better and that better they shall get, so help me God.
             </p>
             <p>
-                We have heard the cry of the market women in Idumota, the bus conductor in Yaba, the office man/women in Lekki or the young lady that had to swim in the pool of flooded water in Sangotedo before they can go to work. We are here to do our best to replace the sorrows with better future. 
+                We have heard the cry of the market women in Idumota, the bus conductor in Yaba, the office men/women in Lekki or the young lady that had to swim in the pool of flooded water in Sangotedo before they can get to work. We are here to do our best to replace the sorrows or the agonies with better future. 
                 We know what we need to get the job done and we will get to work not in 6 months or 1 year later but from the day that we are elected.
             </p>
             <p>

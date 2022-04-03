@@ -5457,24 +5457,23 @@
         <section class="css-pef8vh">
           <div class="css-eyto4f">
             <div class="css-zbf0mm">
-              <p class="css-trrx3p ee5gium7">We will make it work</p>
-              <h2 class="css-13y55mi">I want our democracy to work more than they want it to fail.</h2>
-              <p>
-              Lagos is one of the most competitive states in the country. The Presidency AND the Senate could be decided right here in Lagos State. So we need to build an enormous grassroots movement to win. Sign up to volunteer for #TeamVOO today!
-              </p>
-            </div>
-          </div>
-        </section>
-        <section data-scroll="true" class="css-145e0n1 is-inview">
-          <div data-scroll="true" class="css-9ys9c3 is-inview">
-            <div class="css-cqk34u">
-              <div class="css-1q2ascn">
-                <div class="css-7gruf0">Want to donate?<br class="css-hiki5m"><span class="css-1wclmit"> </span><a
-                    href="/donate"><span class="css-13moaev">Donate here</span></a></div>
+        <section data-scroll="true" class="css-1g50wpn is-inview">
+          <div data-scroll="true" class="css-12pw8nw is-inview"><img data-scroll="true" data-scroll-speed=".5"
+              src="images/banke-flyer1.jpg" alt="Volunteers taking a selfie"
+              class="css-3pmra7 is-inview"
+              style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -38.4219, 0, 1);">
+            <form data-scroll="true" data-scroll-speed="-.5" id="subscriber_form" name="join-team" class="css-dbx7qb is-inview"
+              style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 38.4219, 0, 1);" method="POST">
+              @csrf
+              <h3 class="css-16it5s7 ee5gium5">We will make it work.</h3>
+              <h4 class="css-16it5s7 ee5gium5">I want our democracy to work more than they want it to fail.</h4>
+              <p class="css-i8bne6"> Lagos is one of the most competitive states in the country. The Presidency AND the Senate could be decided right here in Lagos State. So we need to build an enormous grassroots movement to win. Sign up to volunteer for #TeamVOO today!</p>
               </div>
-            </div>
+            </form>
           </div>
         </section>
+        
+        
         <section data-scroll="true" class="css-1g50wpn is-inview">
           <div data-scroll="true" class="css-12pw8nw is-inview"><img data-scroll="true" data-scroll-speed=".5"
               src="images/banke2.jpeg" alt="Volunteers taking a selfie"
@@ -5509,7 +5508,6 @@
               <p class="css-ravl3z ee5gium7">Conor is fighting for a better future for everyone. Your contribution
                 supports our 2022 campaign to elect Conor to the Senate. Anything helps. Thank you for your support!</p>
             </div>
-            
           </div>
         </section>
         <footer class="css-r2jvqo">
@@ -5539,7 +5537,7 @@
                       d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
                     </path>
                   </svg></a></div>
-              <address class="css-l67gk5">Banke Oniru for Lagos  Senatorial District<br><span class="css-50zrmy">PO Box 10381</span><br><span
+              <address class="css-l67gk5">Banke Oniru for Lagos Senatorial District<br><span class="css-50zrmy">Lagos Central, Lagos</span><br><span
                   class="css-50zrmy"></span></address>
             </div>
             <ul class="css-ydh17v">
