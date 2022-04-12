@@ -13,7 +13,22 @@
 
                     @if (MS::isAdmin())
                     <li class="nav-label">Users</li>
-                   
+                    <li class="">
+                        <a  href="{{route('admin_dashboard')}}" aria-expanded="false">
+                            <i class="icon-speedometer menu-icon"></i><span class="nav-text">Users</span>
+                        </a>
+                    </li>
+                    <li class="">
+                    <li class="mega-menu mega-menu-sm">
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="icon-options menu-icon"></i><span class="nav-text">Gallery</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a href="{{route('gallery.index')}}">Gallery</a></li>
+                            <li><a href="{{route('gallery.create')}}">Add Item</a></li>
+                        </ul>
+                    </li>
+                    </li>
                     @endif
 
                     <li class="nav-label">Messaging</li>

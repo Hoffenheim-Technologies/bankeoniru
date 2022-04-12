@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SubscriberController;
 use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\Admin\ImageController;
+use App\Models\Image;
 
 /*
 |--------------------------------------------------------------------------
@@ -57,11 +59,17 @@ Route::middleware(['auth', 'isAdmin'])->group(function () {
     Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');
     Route::get('/profile', [ProfileController::class, 'index'])->name('profile');
     Route::put('/profile/{id}', [ProfileController::class, 'store'])->name('profile.store');
-
-
+    Route::prefix('/admin')->group(function(){
+        Route::resource('gallery', '\App\Http\Controllers\Admin\ImageController')->name('*', 'admin_gallery');
+    });
+    
     Route::get('/change-password', function () {
         return view('admin.change-password');
     });
+});
+
+Route::get('/gallery', function(){
+    return view('gallery')->with('images', Image::all());
 });
 
 Route::controller(SubscriberController::class)->group(function() {
