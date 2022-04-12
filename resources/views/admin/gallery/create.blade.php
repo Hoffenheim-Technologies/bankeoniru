@@ -25,7 +25,7 @@
                                 <div class="form-row">
                                     <div class="form-group col-md-8">
                                         <label>Image</label>
-                                        <input type="file" class="form-control" name="image">
+                                        <input type="file" class="form-control" name="image" required>
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center">

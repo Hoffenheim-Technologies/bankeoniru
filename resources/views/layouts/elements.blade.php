@@ -98,6 +98,8 @@
                             </li>
                             <li class="rd-nav-item"><a class="rd-nav-link" href="{{url('/donate')}}">Donate</a></li>
                             <li class="rd-nav-item"><a class="rd-nav-link" href="{{url('/gallery')}}">Gallery</a></li>
+                            <li class="rd-nav-item"><a class="rd-nav-link" href="{{url('/news')}}">News</a></li>
+                            <li class="rd-nav-item"><a class="rd-nav-link" href="{{url('/blog')}}">Blog</a></li>
                             <li class="rd-nav-item"><a class="rd-nav-link" href="{{url('/contact')}}">Contact Us</a>
                             </li>
                         </ul>

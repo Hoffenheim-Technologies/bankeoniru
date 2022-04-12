@@ -7,6 +7,7 @@ use App\Http\Controllers\Admin\ImageController;
 use App\Models\Image;
 use App\Models\User;
 use App\Models\News;
+use App\Models\Blog;
 
 /*
 |--------------------------------------------------------------------------
@@ -65,6 +66,7 @@ Route::middleware(['auth', 'isAdmin'])->group(function () {
     Route::prefix('/admin')->group(function(){
         Route::resource('gallery', '\App\Http\Controllers\Admin\ImageController')->name('*', 'admin_gallery');
         Route::resource('news', '\App\Http\Controllers\Admin\NewsController')->name('*', 'admin_news');
+        Route::resource('blog', '\App\Http\Controllers\Admin\BlogController')->name('*', 'admin_blog');
     });
     
     Route::get('/change-password', function () {
@@ -78,6 +80,10 @@ Route::get('/gallery', function(){
 
 Route::get('/news', function(){
     return view('news')->with('news', News::all());
+});
+
+Route::get('/blog', function(){
+    return view('blog')->with('blog', Blog::all());
 });
 
 Route::controller(SubscriberController::class)->group(function() {

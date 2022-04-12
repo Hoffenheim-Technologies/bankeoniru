@@ -45,8 +45,8 @@
                             <i class="icon-options menu-icon"></i><span class="nav-text">Blog</span>
                         </a>
                         <ul aria-expanded="false">
-                            <li><a href="{{route('gallery.index')}}">Blog</a></li>
-                            <li><a href="{{route('gallery.create')}}">Add Item</a></li>
+                            <li><a href="{{route('blog.index')}}">Blog</a></li>
+                            <li><a href="{{route('blog.create')}}">Add Item</a></li>
                         </ul>
                     </li>
                     </li>

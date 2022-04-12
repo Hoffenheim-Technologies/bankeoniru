@@ -1,4 +1,16 @@
 @extends('admin.layouts.app')
+@section('headerLinks')
+<script src="//cdn.quilljs.com/1.3.6/quill.js"></script>
+<script src="//cdn.quilljs.com/1.3.6/quill.min.js"></script>
+
+<!-- Theme included stylesheets -->
+<link href="//cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+<link href="//cdn.quilljs.com/1.3.6/quill.bubble.css" rel="stylesheet">
+
+<!-- Core build with no theme, formatting, non-essential modules -->
+<link href="//cdn.quilljs.com/1.3.6/quill.core.css" rel="stylesheet">
+<script src="//cdn.quilljs.com/1.3.6/quill.core.js"></script>
+@endsection
 @section('content')
         <!--**********************************
             Content body start
@@ -9,7 +21,7 @@
                 <div class="col p-md-0">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="javascript:void(0)">Dashboard</a></li>
-                        <li class="breadcrumb-item active"><a href="javascript:void(0)">Users</a></li>
+                        <li class="breadcrumb-item active"><a href="javascript:void(0)">Blog</a></li>
                     </ol>
                 </div>
             </div>
@@ -20,45 +32,39 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-body">
-                            <h4 class="card-title">Users</h4>
+                            <h4 class="card-title">Blog</h4>
                             <div class="table-responsive">
                                 <table class="table table-striped table-bordered zero-configuration">
                                     <thead>
                                         <tr>
                                             <th>SN</th>
-                                            <th>Name</th>
-                                            <th>Email</th>
-                                            <th>Role</th>
-                                            <th>Action</th>
+                                            <th>Title</th>
+                                            <th>Date</th>
+                                            <th>View</th>
+                                            <th>Delete</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        @foreach ($users as $item)
+                                        @foreach ($blog as $item)
                                         <tr>
                                             <td>
                                                 {{$loop->iteration}}
                                             </td>
                                             <td>
-                                                {{$item->name}}
+                                                {{$item->title}}
                                             </td>
                                             <td>
-                                                {{$item->email}}
+                                                {{$item->date}}
                                             </td>
                                             <td>
-                                                {{$item->role}}
+                                                <span>
+                                                    <button class="btn btn-info info-btn btn-sm mx-2" data-toggle="tooltip" data-placement="top" title="View"><i class="fa fa-close color-danger"></i> <a href="{{route('blog.edit', $item)}}" style="color: #fff">View</a></button>
+                                                </span>
                                             </td>
                                             <td>
-                                                <form action="{{ route('users.update' , $item)}}" method="post">@csrf @method('patch')
+                                                <form action="{{ route('blog.destroy' , $item)}}" method="post">@csrf @method('delete')
                                                     <span>
-                                                        <button @if ($item->id == Auth::user()->id || $item->id == 1)
-                                                            disabled
-                                                        @endif type="submit" class="btn btn-info info-btn btn-sm mx-2"><i class="fa fa-close color-danger"></i> 
-                                                        @if ($item->role != 'admin')
-                                                            Promote
-                                                        @else
-                                                            Demote
-                                                        @endif
-                                                        </button>
+                                                        <button type="submit" class="btn btn-danger delete-btn btn-sm mx-2" data-toggle="tooltip" data-placement="top" title="Delete"><i class="fa fa-close color-danger"></i> Delete</button>
                                                     </span>
                                                 </form>
                                             </td>

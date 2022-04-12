@@ -27,15 +27,15 @@
 </style>
 <section class="section section-lg">
     <div class="myGrid" style="" >
-    <?php $news_items = $news ?>    
-    @forelse ($news as $news)
+    <?php $news_items = $blog ?>    
+    @forelse ($blog as $news)
     <div class="news-item" id="{{$loop->iteration}}">
-        @if(!empty($news->image))
-        <img src="{{$news->image}}" style="max-height: 300px; width: auto; display: block; margin: auto">
+        @if(!empty($news->caption_image))
+        <img src="{{$news->caption_image}}" style="max-height: 300px; width: auto; display: block; margin: auto">
         @endif
         <h3>{{$news->title}}</h3>
         <span>Date: {{$news->date}}</span>
-        <p>{{substr($news->content, 0, 50)}}...</p>
+        <p>{{substr($news->intro, 0, 50)}}...</p>
     </div> 
     @empty  
     <p>There is no news at the time</p>
@@ -59,6 +59,7 @@
     }
     @media (max-width: 800px){
         .myModal>.myContent {
+            max-height: 90vh;
             width: fit-content;
         }
     }
@@ -74,21 +75,32 @@
             <h3 class="m-title"></h3>
             <span>Date: <span class="m-date"></span></span>
         </div>
-        <div class="m-content" style="padding: 20px">
-            
-        </div>
+        <p class="m-intro" style="margin: 20px"></p>
+        <p class="m-bp1" style="margin: 10px"></p>
+        <img src="" alt="" class="m-bimg1">
+        <p class="m-bp2" style="margin: 10px"></p>
+        <img src="" alt="" class="m-bimg2">
+        <p class="m-bp3" style="margin: 10px"></p>
+        <p class="m-conclusion" style="margin: 20px"></p>
     </div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script>
     const news = <?php echo(json_encode($news_items)); ?>;
+    console.log(news)
     $('.news-item').on('click', (e) => {
         let id = $(event.currentTarget).attr('id')
         let newsItem = news.find(item => item.id == id)
-        $('.m-img').attr('src', newsItem.image)
+        $('.m-img').attr('src', newsItem.caption_image)
         $('.m-title').text(newsItem.title)
         $('.m-date').text(newsItem.date)
-        $('.m-content').text(newsItem.content)
+        $('.m-intro').text(newsItem.intro)
+        $('.m-bp1').text(newsItem.bp1)
+        $('.m-bimg1').attr('src', newsItem.bimg1)
+        $('.m-bp2').text(newsItem.bp2)
+        $('.m-bimg2').attr('src', newsItem.bimg2)
+        $('.m-bp3').text(newsItem.bp3)
+        $('.m-conclusion').text(newsItem.conclusion)
         $('.myModal').show()
     })
 </script>

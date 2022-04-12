@@ -13,7 +13,7 @@ class DashboardController extends Controller
         $user = Auth::user();
         $dashboard = [];
         $dashboard['admins'] = User::where('role','admin')->count();
-        
-        return view("admin.dashboard", compact('user','dashboard'));
+        $users = User::all();
+        return view("admin.dashboard")->with('users', $users);
     }
 }
