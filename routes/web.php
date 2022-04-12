@@ -5,6 +5,8 @@ use App\Http\Controllers\SubscriberController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\ImageController;
 use App\Models\Image;
+use App\Models\User;
+use App\Models\News;
 
 /*
 |--------------------------------------------------------------------------
@@ -56,11 +58,13 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::middleware(['auth', 'isAdmin'])->group(function () {
     Route::get('/admin', [DashboardController::class, 'dashboard'])->name('admin_dashboard');
+    Route::resource('/users', '\App\Http\Controllers\Admin\UserController')->name('*', 'users');
     Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');
     Route::get('/profile', [ProfileController::class, 'index'])->name('profile');
     Route::put('/profile/{id}', [ProfileController::class, 'store'])->name('profile.store');
     Route::prefix('/admin')->group(function(){
         Route::resource('gallery', '\App\Http\Controllers\Admin\ImageController')->name('*', 'admin_gallery');
+        Route::resource('news', '\App\Http\Controllers\Admin\NewsController')->name('*', 'admin_news');
     });
     
     Route::get('/change-password', function () {
@@ -70,6 +74,10 @@ Route::middleware(['auth', 'isAdmin'])->group(function () {
 
 Route::get('/gallery', function(){
     return view('gallery')->with('images', Image::all());
+});
+
+Route::get('/news', function(){
+    return view('news')->with('news', News::all());
 });
 
 Route::controller(SubscriberController::class)->group(function() {

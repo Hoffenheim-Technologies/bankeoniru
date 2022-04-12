@@ -125,24 +125,22 @@
                         </li> --}}
                         <li class="icons dropdown">
                             <div class="user-img c-pointer position-relative"   data-toggle="dropdown">
-                                <span class="activity active"></span>
+                                
+                                <span style="position: relative">{{Auth::user()->name}} <span class="activity active" style="top: -10px; right: -10px"></span></span>
                                 <!-- <img src="{{Storage::url(Auth::user()->image)}}" height="40" width="40" alt=""> -->
                             </div>
                             <div class="drop-down dropdown-profile animated fadeIn dropdown-menu">
                                 <div class="dropdown-content-body">
                                     <ul>
-                                        <li>
+                                        <!-- <li>
                                             <a href="{{route('profile')}}"><i class="icon-user"></i> <span>Profile</span></a>
                                         </li>
 
                                         <hr class="my-2">
                                         <li>
                                             <a href="/change-password"><i class="icon-key"></i> <span>Change Password</span></a>
-                                        </li>
+                                        </li> -->
 
-                                        <hr class="my-2">
-
-                                        <hr class="my-2">
                                         <li>
                                             <a href="{{ route('logout') }}" onclick="event.preventDefault();document.getElementById('logout-form').submit();">
                                                 <i class="icon-key"></i>

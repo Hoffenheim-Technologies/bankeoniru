@@ -12,9 +12,8 @@
                     </li>
 
                     @if (MS::isAdmin())
-                    <li class="nav-label">Users</li>
                     <li class="">
-                        <a  href="{{route('admin_dashboard')}}" aria-expanded="false">
+                        <a  href="{{route('users.index')}}" aria-expanded="false">
                             <i class="icon-speedometer menu-icon"></i><span class="nav-text">Users</span>
                         </a>
                     </li>
@@ -29,14 +28,36 @@
                         </ul>
                     </li>
                     </li>
+                    <li class="">
+                    <li class="mega-menu mega-menu-sm">
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="icon-options menu-icon"></i><span class="nav-text">News</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a href="{{route('news.index')}}">News</a></li>
+                            <li><a href="{{route('news.create')}}">Add Item</a></li>
+                        </ul>
+                    </li>
+                    </li>
+                    <li class="">
+                    <li class="mega-menu mega-menu-sm">
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="icon-options menu-icon"></i><span class="nav-text">Blog</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a href="{{route('gallery.index')}}">Blog</a></li>
+                            <li><a href="{{route('gallery.create')}}">Add Item</a></li>
+                        </ul>
+                    </li>
+                    </li>
                     @endif
 
-                    <li class="nav-label">Messaging</li>
+                    <!-- <li class="nav-label">Messaging</li>
                     <li>
                         <a href="/chat" aria-expanded="false">
                             <i class="icon-envelope menu-icon"></i> <span class="nav-text">Chat</span>
                         </a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>
