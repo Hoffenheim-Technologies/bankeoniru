@@ -12,10 +12,10 @@
     </div>
 </section>
 <section class="section section-lg">
-    <div class="grid grid-cols-3 items-center max-h-12" style="display: grid; align-items: center; grid-template-columns: repeat(3, minmax(0, 1fr)); max-height: 400px; gap: 0.75rem">
+    <div class="grid grid-cols-3 items-center max-h-12" style="display: grid; align-items: center; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.75rem">
     @forelse($images as $image)
     <div style="display: block; margin: auto; max-height: inherit">
-        <a href="{{$image->location}}"><img src="{{$image->location}}" style="max-height: inherit"></a>
+        <a href="{{$image->location}}"><img src="{{$image->location}}" style="max-height: 400px"></a>
     </div>   
     @empty
     <p>There are no images at this time</p>
