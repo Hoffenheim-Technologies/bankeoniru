@@ -38,7 +38,7 @@
                                                 {{$loop->iteration}}
                                             </td>
                                             <td>
-                                                {{$item->image}}
+                                                <img src="{{$item->location}}" alt="" width="60">
                                             </td>
                                             <td>
                                                 {{$item->location}}

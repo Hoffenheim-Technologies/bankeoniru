@@ -5550,16 +5550,20 @@
                         class="css-zlm0wp"></span></span></a></p>
               </li>
               <li>
-                <p class="css-lvedgy ee5gium7"><a href="/campaign"><span class="group css-bjn8wh">Campaign<span
+                <p class="css-lvedgy ee5gium7"><a href="/gallery"><span class="group css-bjn8wh">Gallery<span
                         class="css-zlm0wp"></span></span></a></p>
               </li>
               <li>
-                <p class="css-lvedgy ee5gium7"><a href="/volunteer"><span class="group css-bjn8wh">Volunteer<span
+                <p class="css-lvedgy ee5gium7"><a href="/news"><span class="group css-bjn8wh">News<span
                         class="css-zlm0wp"></span></span></a></p>
               </li>
               <li>
-                <p class="css-lvedgy ee5gium7"><a href="/donate"
-                    class="css-1u4hpl4"><span class="group css-bjn8wh">Donate<span
+                <p class="css-lvedgy ee5gium7"><a href="/blog"
+                    class="css-1u4hpl4"><span class="group css-bjn8wh">Blog<span
+                        class="css-zlm0wp"></span></span></a></p>
+              </li>
+              <li>
+                <p class="css-lvedgy ee5gium7"><a href="/login"><span class="group css-bjn8wh">Sign In<span
                         class="css-zlm0wp"></span></span></a></p>
               </li>
             </ul>

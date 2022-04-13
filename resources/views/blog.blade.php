@@ -38,7 +38,7 @@
         <p>{{substr($news->intro, 0, 50)}}...</p>
     </div> 
     @empty  
-    <p>There is no news at the time</p>
+    <p>There is no blog post at the time</p>
     @endforelse
     </div>
 </section>

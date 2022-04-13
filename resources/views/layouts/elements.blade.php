@@ -138,6 +138,8 @@
                       <!-- <li><a href="projects.html">Projects</a></li> -->
                       <!-- <li><a href="single-project.html">Single Project</a></li> -->
                       <li><a href="{{url('/contact')}}">Contacts</a></li>
+                      <li><a href="{{url('/blog')}}">Blog</a></li>
+                      <li><a href="{{url('/news')}}">News</a></li>
                       <!-- <li><a href="testimonials.html">Testimonials</a></li>
                       <li><a href="privacy-policy.html">Terms of Use</a></li> -->
                     </ul>
@@ -146,6 +148,8 @@
                     <ul class="list list-xs">
                       <!-- <li><a href="grid-blog.html">Blog</a></li> -->
                       <li><a href="{{url('/about')}}">About Us</a></li>
+                      <li><a href="{{url('/gallery')}}">Gallery</a></li>
+                      <li><a href="{{url('/login')}}">Sign In</a></li>
                       <!-- <li><a href="about-me.html">About Me</a></li> -->
                       <!-- <li><a href="single-event.html">Single Event</a></li>
                       <li><a href="single-job.html">Single Job</a></li> -->
