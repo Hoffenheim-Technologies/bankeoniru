@@ -29,7 +29,7 @@
     <div class="myGrid" style="" >
     <?php $news_items = $blog ?>    
     @forelse ($blog as $news)
-    <div class="news-item" id="{{$loop->iteration}}">
+    <div class="news-item" id="{{$news->id}}">
         @if(!empty($news->caption_image))
         <img src="{{$news->caption_image}}" style="max-height: 300px; width: auto; display: block; margin: auto">
         @endif

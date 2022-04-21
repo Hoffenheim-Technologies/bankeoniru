@@ -13,9 +13,16 @@
 
                     @if (MS::isAdmin())
                     <li class="">
-                        <a  href="{{route('users.index')}}" aria-expanded="false">
-                            <i class="icon-speedometer menu-icon"></i><span class="nav-text">Users</span>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="icon-options menu-icon"></i><span class="nav-text">Users</span>
                         </a>
+                        <ul aria-expanded="false">
+                            <li> <a  href="{{route('users.index')}}" aria-expanded="false">
+                            <i class="icon-speedometer menu-icon"></i><span class="nav-text">Users</span>
+                        </a></li>
+                            <li><a href="{{route('register')}}">Add User</a></li>
+                        </ul>
+                       
                     </li>
                     <li class="">
                     <li class="mega-menu mega-menu-sm">
