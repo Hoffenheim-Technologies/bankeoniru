@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{config('app.name')}}</title>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon">
-    <link href="css/apps.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/fonts.css">
-
+    <link rel="shortcut icon" href="{{asset('images/favicon.jpg')}}" type="image/x-icon">
+    <link href="{{ asset('css/apps.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{asset('css/fonts.css')}}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=6267e0cd04bb79001931aa8e&product=sticky-share-buttons' async='async'></script>
     <!-- <script src="{{ asset('js/app.js') }}"></script> -->
 </head>
 <body>
@@ -199,7 +199,7 @@
         </div>
       </footer>
     <!-- <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script> -->
-    <script src="js/core.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="{{asset('js/core.min.js')}}"></script>
+    <script src="{{asset('js/script.js')}}"></script>
 </body>
 </html>

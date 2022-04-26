@@ -6,7 +6,7 @@
         <div class="container breadcrumbs-custom-container">
             <ul class="breadcrumbs-custom-path">
                 <li><a href="{{url('/')}}">Home</a></li>
-                <li class="active">News</li>
+                <li class="active">Blog</li>
             </ul>
         </div>
     </div>
@@ -29,14 +29,14 @@
     <div class="myGrid" style="" >
     <?php $news_items = $blog ?>    
     @forelse ($blog as $news)
-    <div class="news-item" id="{{$news->id}}">
+    <a class="news-item" id="{{$news->id}}" href="/blogs/{{$news->id}}">
         @if(!empty($news->caption_image))
         <img src="{{$news->caption_image}}" style="max-height: 300px; width: auto; display: block; margin: auto">
         @endif
         <h3>{{$news->title}}</h3>
         <span>Date: {{$news->date}}</span>
         <p>{{substr($news->intro, 0, 50)}}...</p>
-    </div> 
+    </a> 
     @empty  
     <p>There is no blog post at the time</p>
     @endforelse
@@ -85,7 +85,7 @@
     </div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script>
+<!-- <script>
     const news = <?php echo(json_encode($news_items)); ?>;
     console.log(news)
     $('.news-item').on('click', (e) => {
@@ -103,6 +103,6 @@
         $('.m-conclusion').text(newsItem.conclusion)
         $('.myModal').show()
     })
-</script>
+</script> -->
 
 @endsection

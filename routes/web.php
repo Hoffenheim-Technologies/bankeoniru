@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SubscriberController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\ImageController;
+use App\Http\Controllers\BlogController;
 use App\Models\Image;
 use App\Models\User;
 use App\Models\News;
@@ -86,6 +87,7 @@ Route::get('/blog', function(){
     return view('blog')->with('blog', Blog::all());
 });
 
+Route::get('/blogs/{id}', [BlogController::class, 'specific'])->name('blog');
 Route::controller(SubscriberController::class)->group(function() {
     Route::get('/subscribers', 'index');
     Route::get('/subscribers/{id}', 'show');
